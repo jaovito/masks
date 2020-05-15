@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="./estilos/styleContact.css">
+    <title>Masks</title>
+</head>
+<body>
+
+  <div class="container-fluid">
+
+    <header>
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+            <a class="navbar-brand" href="#">Mascaras</a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+              <ul class="navbar-nav mr-auto">
+
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">Home </a>
+                </li>
+
+                <li class="nav-item active">
+                  <a class="nav-link disabled" href="#">Fale comigo <span class="sr-only">(current)</span></a>
+                </li>
+
+                <li class="nav-item dropdown">
+
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Venda
+                  </a>
+
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Modelos de máscara</a>
+                    <a class="dropdown-item" href="#">Sobre mim</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Redes Sociais</a>
+                  </div>
+
+                </li>
+
+              </ul>
+              <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+              </form>
+              
+            </div>
+          </nav>
+    </header>
+
+      <section>
+          
+        <div class="row">
+            <div class="col-4">
+              <div class="list-group" id="list-tab" role="tablist">
+                <a class="list-group-item list-group-item-action active" id="list-contact-list" data-toggle="list" href="#list-contact" role="tab" aria-controls="contact">Contatos</a>
+                <a class="list-group-item list-group-item-action" id="list-info-list" data-toggle="list" href="#list-info" role="tab" aria-controls="info">Informações</a>
+                <a class="list-group-item list-group-item-action" id="list-models-list" data-toggle="list" href="#list-models" role="tab" aria-controls="models">Modelos de Máscara</a>
+              </div>
+            </div>
+            <div class="col-8">
+              <div class="tab-content" id="nav-tabContent">
+                <div class="tab-pane fade show active" id="list-contact" role="tabpanel" aria-labelledby="list-contact-list">
+                    <main>
+                        <ul class="list-unstyled">
+                            <li class="media">
+                              <img src="./assets/contact1.png" class="mr-3" alt="...">
+                              <div class="media-body">
+                                <h5 class="mt-0 mb-1">Whatsapp</h5>
+                                <h5><a href="https://api.whatsapp.com/send?phone=5515988193921&text=Olá, tudo bem? Gostaria de informações sobre máscaras.">+55 (15) 98819-3921</a></h4>
+                                Contato somente para compra de máscara, entrar em contato apenas com finalidade de comprar máscaras.
+                              </div>
+                            </li>
+                            <li class="media my-4">
+                              <img src="./assets/contact2.png" class="mr-3" alt="...">
+                              <div class="media-body">
+                                <h5 class="mt-0 mb-1">Facebook</h5>
+                                Você pode entrar em contato <a href="https://www.messenger.com/t/joao.dias.90857" target="_blank">comigo</a> por inbox, e escolher a máscara que mais te agradou.
+                              </div>
+                            </li>
+                            
+                          </ul>
+                    </main>
+
+                </div>
+                <div class="tab-pane fade" id="list-info" role="tabpanel" aria-labelledby="list-info-list">
+                    <h1>Qual a nossa intenção?</h1>
+                    <p>O intuito é ajudas as pessoas fornecendo proteção contra o vírus com máscaras básicas (não são para uso cirúrgico), com um custo acessível ajudando aqueles que não tem condições de comprar máscaras com o custo atual (que está muito elevado), além disso fazemos entregas na região de Sorocaba em alguns casos, facilitando para que você não saia de casa e não se contamine.</p>
+
+                    <p>
+                        Lembrando que deve lavar sua máscara antes de utiliza-la, isso para sua própria segurança e também para a segurança do próximo.
+                    </p>
+                </div>
+                <div class="tab-pane fade" id="list-models" role="tabpanel" aria-labelledby="list-models-list">
+                    Por enquanto não há nada aqui!
+                </div>
+              </div>
+            </div>
+          </div>
+      </section>
+  </div>
+    
+
+
+ 
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"  crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
+</html>
