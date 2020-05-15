@@ -6,6 +6,12 @@
     margin-left: 0;
 }
 
+.col-4 {
+    flex: 0 0 33.333333%;
+    padding: 1px;
+    max-width: 33.333333%;
+}
+
 body {
     position: fixed;
     overflow: hidden;
